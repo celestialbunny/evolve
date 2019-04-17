@@ -57,6 +57,10 @@ td {
     transform: scale(1.2);
 }
 
+.schedule {
+    margin: auto;
+}
+
 @media only screen and (min-width: 576px) {
     body * {
         line-height: 1.3;
