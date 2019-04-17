@@ -45,7 +45,7 @@ td {
 
 .job-post {
     font-style: italic;
-    font-size: calc(10px + (26 - 14) * ((100vw - 400px) / (1400 - 200)));
+    font-size: calc(12px + (26 - 10) * ((100vw - 400px) / (1400 - 200)));
 }
 
 .job-post-title {
@@ -60,6 +60,11 @@ td {
 @media only screen and (min-width: 576px) {
     body * {
         line-height: 1.3;
+    }
+    
+    .job-post {
+        font-style: italic;
+        font-size: calc(12px + (26 - 10) * ((100vw - 400px) / (1600 - 200)));
     }
 }
 
@@ -88,7 +93,7 @@ td {
     
     .job-post {
         font-style: italic;
-        font-size: calc(10px + (26 - 14) * ((100vw - 400px) / (1600 - 200)));
+        font-size: calc(10px + (26 - 10) * ((100vw - 400px) / (1600 - 200)));
     }
 }
 
