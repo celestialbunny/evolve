@@ -1,0 +1,147 @@
+body {
+    position: relative;
+    background: url(./../images/bg_tablet.png);
+    /* background: url(./../images/bg_desktop.jpg); */
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+    width: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    margin: 2.2em;
+}
+
+.intro-group {
+    margin-bottom: 1.3em;
+}
+
+.title {
+    letter-spacing: 0.3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+td {
+    vertical-align:top;
+    padding-bottom: 0.5em;
+}
+.element {
+    padding-bottom: 0.3em;
+}
+
+h1 {
+    font-size: calc(20px + (26 - 10) * ((100vw - 200px) / (1600 - 600)));
+}
+
+p,
+div,
+span,
+td {
+    font-size: calc(14px + (26 - 14) * ((100vw - 400px) / (1400 - 200)));
+}
+
+.job-post {
+    font-style: italic;
+    font-size: calc(10px + (26 - 14) * ((100vw - 400px) / (1400 - 200)));
+}
+
+.job-post-title {
+    font-style: italic;
+    font-size: calc(12px + (26 - 14) * ((100vw - 300px) / (1400 - 200)));
+}
+
+@media only screen and (min-width: 576px) {
+    body * {
+        line-height: 1.3;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: url(./../images/bg_desktop.jpg);
+        background-color: black;
+        background-size: cover;
+        background-position: top center;
+        background-attachment: fixed;
+        /* height: 100vh; */
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    body * {
+        line-height: 1.5;
+    }
+
+    p,
+    div,
+    span,
+    td {
+        font-size: calc(14px + (26 - 14) * ((100vw - 400px) / (1600 - 200)));
+    }
+    
+    .job-post {
+        font-style: italic;
+        font-size: calc(10px + (26 - 14) * ((100vw - 400px) / (1600 - 200)));
+    }
+}
+
+@media screen and (min-width: 992px) {
+    p,
+    div,
+    span,
+    td {
+        font-size: calc(14px + (26 - 14) * ((100vw - 400px) / (1800 - 200)));
+    }
+    
+    .job-post {
+        font-style: italic;
+        font-size: calc(10px + (26 - 14) * ((100vw - 400px) / (1800 - 200)));
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    p,
+    div,
+    span,
+    td {
+        font-size: calc(14px + (26 - 14) * ((100vw - 600px) / (1800 - 200)));
+    }
+    
+    .job-post {
+        font-style: italic;
+        font-size: calc(10px + (26 - 14) * ((100vw - 600px) / (1800 - 200)));
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    p,
+    div,
+    span,
+    td {
+        font-size: calc(14px + (26 - 18) * ((100vw - 600px) / (1800 - 200)));
+    }
+    
+    .job-post {
+        font-style: italic;
+        font-size: calc(10px + (26 - 18) * ((100vw - 600px) / (1800 - 200)));
+    }
+}
+
+.hero * {
+    color: #fff;
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+td:nth-child(even) {
+    padding-left: 2em;
+}
+
+.rsvp {
+    margin-top: 3em;
+}
